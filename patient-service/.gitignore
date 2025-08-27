@@ -32,3 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 ../.jetclient/
+
+../.idea/
+../Pasted image.png
