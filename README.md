@@ -23,11 +23,11 @@ flowchart LR
   API_Gateway --> Patient_Service
   API_Gateway --> Appointment_Service
   Patient_Service -->|Publish patient.events| Kafka[(Kafka)]
-  Billing Service -->|Consume patient.events| Kafka
+  Billing_Service -->|Consume patient.events| Kafka
   Notification_Service -->|Consume appointment.events| Kafka
   subgraph AWS ECS Cluster
     API_Gateway
     Patient_Service
-    Appointment_Service
+    Billing_Service
     Notification_Service
   end
