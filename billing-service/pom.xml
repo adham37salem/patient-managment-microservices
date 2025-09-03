@@ -138,7 +138,6 @@
 					</excludes>
 				</configuration>
 			</plugin>
-            <!-- PROTO -->
             <plugin>
                 <groupId>org.xolstice.maven.plugins</groupId>
                 <artifactId>protobuf-maven-plugin</artifactId>
